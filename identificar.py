@@ -1,20 +1,20 @@
-dato = input("Ingrese cualquier dato: ")
+entrada_usuario = input("Ingrese un valor: ")
 
 try:
-    num = eval(dato)
-    var = type(num).__name__
-    print("La entrada es de tipo:", var)
+    valor = eval(entrada_usuario)
+    tipo_dato = type(valor).__name__
+    print("El valor ingresado es de tipo:", tipo_dato)
 except:
-    var = type(dato).__name__
-    print("La entrada es de tipo:", var)
+    tipo_dato = type(entrada_usuario).__name__
+    print("El valor ingresado es de tipo:", tipo_dato)
 
-if var == "int":
-    print("¡La entrada es un número entero!")
-elif var == "float":
-    print("¡La entrada es un número decimal!")
-elif var == "str":
-    print("¡La entrada es una cadena de texto!")
-elif var == "bool":
-    print("¡La entrada es de tipo booleana!")
+if tipo_dato == "int":
+    print("¡El valor ingresado es un número entero!")
+elif tipo_dato == "float":
+    print("¡El valor ingresado es un número decimal!")
+elif tipo_dato == "str":
+    print("¡El valor ingresado es una cadena de texto!")
+elif tipo_dato == "bool":
+    print("¡El valor ingresado es de tipo booleano!")
 else:
     print("¡Tipo de dato no identificado!")
