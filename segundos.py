@@ -9,4 +9,4 @@ segundopresente = int(input("Ingrese los segundos actuales: "))
 
 segundostotales = calculodesegundos(horapresente,minutopresente,segundopresente)
 
-print(f"los segundos totales son:  {segundostotales}")
+print(f"los segundos totales son:  {segundostotales} hasta ahora")
