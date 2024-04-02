@@ -45,28 +45,28 @@ frame_apagado = tk.Frame(ventana, bg='#1e212d')
 frame_apagado.pack(pady=10)
 
 # Ejemplo de creación de botones con el estilo aplicado y empaquetado horizontalmente
-boton_A = tk.Button(frame_encendido, text="Encender LED 1", command=lambda: enviar_comando('A'), **estilo_boton)
+boton_A = tk.Button(frame_encendido, text="Encender grupo 1", command=lambda: enviar_comando('A'), **estilo_boton)
 boton_A.pack(side=tk.LEFT, padx=10)
 
-boton_B = tk.Button(frame_encendido, text="Encender LED 2", command=lambda: enviar_comando('B'), **estilo_boton)
+boton_B = tk.Button(frame_encendido, text="Encender grupo 2", command=lambda: enviar_comando('B'), **estilo_boton)
 boton_B.pack(side=tk.LEFT, padx=10)
 
-boton_C = tk.Button(frame_encendido, text="Encender LED 3", command=lambda: enviar_comando('C'), **estilo_boton)
+boton_C = tk.Button(frame_encendido, text="Encender grupo 3", command=lambda: enviar_comando('C'), **estilo_boton)
 boton_C.pack(side=tk.LEFT, padx=10)
 
-boton_D = tk.Button(frame_encendido, text="Encender LED 4", command=lambda: enviar_comando('D'), **estilo_boton)
+boton_D = tk.Button(frame_encendido, text="Encender grupo 4", command=lambda: enviar_comando('D'), **estilo_boton)
 boton_D.pack(side=tk.LEFT, padx=10)
 
-boton_E = tk.Button(frame_apagado, text="Apagar LED 1", command=lambda: enviar_comando('E'), **estilo_boton)
+boton_E = tk.Button(frame_apagado, text="Apagar grupo 1", command=lambda: enviar_comando('E'), **estilo_boton)
 boton_E.pack(side=tk.LEFT, padx=10)
 
-boton_F = tk.Button(frame_apagado, text="Apagar LED 2", command=lambda: enviar_comando('F'), **estilo_boton)
+boton_F = tk.Button(frame_apagado, text="Apagar grupo 2", command=lambda: enviar_comando('F'), **estilo_boton)
 boton_F.pack(side=tk.LEFT, padx=10)
 
-boton_G = tk.Button(frame_apagado, text="Apagar LED 3", command=lambda: enviar_comando('G'), **estilo_boton)
+boton_G = tk.Button(frame_apagado, text="Apagar grupo 3", command=lambda: enviar_comando('G'), **estilo_boton)
 boton_G.pack(side=tk.LEFT, padx=10)
 
-boton_H = tk.Button(frame_apagado, text="Apagar LED 4", command=lambda: enviar_comando('H'), **estilo_boton)
+boton_H = tk.Button(frame_apagado, text="Apagar grupo 4", command=lambda: enviar_comando('H'), **estilo_boton)
 boton_H.pack(side=tk.LEFT, padx=10)
 
 # Bucle principal para recibir y procesar datos de Arduino
